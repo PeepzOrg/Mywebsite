@@ -3,12 +3,12 @@ module.exports = {
   title: 'My Site',
   tagline: 'My Website',
   url: 'https://github.com/',
-  baseUrl: '/pages/PeepzOrg/Mywebsite/',
+  baseUrl: '/Mywebsite/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'PeepzOrg', // Usually your GitHub org/user name.
   projectName: 'Mywebsite', // Usually your repo name.
-  githubHost: 'github.com',
+  //githubHost: 'github.io',
   plugins: [path.resolve(__dirname, './node_modules/docusaurus-lunr-search/')],
   themeConfig: {
     navbar: {
