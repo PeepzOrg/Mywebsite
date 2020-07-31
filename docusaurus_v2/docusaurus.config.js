@@ -1,12 +1,15 @@
+const path = require('path');
 module.exports = {
   title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  tagline: 'My Website',
+  url: 'https://github.com/',
+  baseUrl: '/pages/PeepzOrg/Mywebsite/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'PeepzOrg', // Usually your GitHub org/user name.
+  projectName: 'Mywebsite', // Usually your repo name.
+  githubHost: 'github.com',
+  plugins: [path.resolve(__dirname, './node_modules/docusaurus-lunr-search/')],
   themeConfig: {
     navbar: {
       title: 'My Site',
