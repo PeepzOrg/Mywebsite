@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{75:function(e){e.exports=JSON.parse('{"allTagsPath":"/pages/PeepzOrg/Mywebsite/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/pages/PeepzOrg/Mywebsite/blog/tags/hello"}')}}]);
